@@ -13,4 +13,8 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'com.microsoft.sqlserver:mssql-jdbc:9.2.1.jre11'
+    // jsoup HTML parser library @ https://jsoup.org/
+    implementation 'org.jsoup:jsoup:1.13.1'
+
 }
