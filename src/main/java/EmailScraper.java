@@ -85,13 +85,7 @@ public class EmailScraper {
 
     static class DatabaseAdd implements Runnable {
         String connectionUrl =
-                "jdbc:sqlserver://mco364.ckxf3a0k0vuw.us-east-1.rds.amazonaws.com;"
-                        + "database=DanielBashary;"
-                        + "user=admin364;"
-                        + "password=mco364lcm;"
-                        + "encrypt=false;"
-                        + "trustServerCertificate=false;"
-                        + "loginTimeout=30;";
+                "url";
         String insertSql = "INSERT INTO EmailScraper (Address) VALUES (?);";
 
 
